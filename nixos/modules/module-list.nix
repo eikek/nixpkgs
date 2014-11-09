@@ -179,6 +179,7 @@
   ./services/misc/rippled.nix
   ./services/misc/rogue.nix
   ./services/misc/siproxd.nix
+  ./services/misc/sitebag.nix
   ./services/misc/svnserve.nix
   ./services/misc/synergy.nix
   ./services/misc/uhub.nix
