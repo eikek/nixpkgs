@@ -1247,6 +1247,8 @@ let
 
   gifsicle = callPackage ../tools/graphics/gifsicle { };
 
+  gitblit = callPackage ../servers/gitblit { };
+
   glusterfs = callPackage ../tools/filesystems/glusterfs { };
 
   glmark2 = callPackage ../tools/graphics/glmark2 { };
@@ -10213,7 +10215,7 @@ let
   musescore = callPackage ../applications/audio/musescore { };
 
   mutt = callPackage ../applications/networking/mailreaders/mutt { };
-  mutt-with-sidebar = callPackage ../applications/networking/mailreaders/mutt { 
+  mutt-with-sidebar = callPackage ../applications/networking/mailreaders/mutt {
     withSidebar = true;
     automake = automake113x;
   };
