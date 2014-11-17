@@ -1102,6 +1102,8 @@ let
 
   exiftags = callPackage ../tools/graphics/exiftags { };
 
+  exim = callPackage ../servers/mail/exim { };
+
   extundelete = callPackage ../tools/filesystems/extundelete { };
 
   expect = callPackage ../tools/misc/expect { };

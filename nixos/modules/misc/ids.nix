@@ -161,6 +161,7 @@
 
       sitebag = 151;
       gitblit = 152;
+      exim = 153;
 
       # When adding a uid, make sure it doesn't match an existing gid. And don't use uids above 399!
 
@@ -289,6 +290,7 @@
 
       sitebag = 151;
       gitblit = 152;
+      exim = 153;
       # When adding a gid, make sure it doesn't match an existing uid. And don't use gids above 399!
 
       users = 100;
