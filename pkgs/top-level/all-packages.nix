@@ -2367,6 +2367,8 @@ let
 
   sproxy-web = haskellPackages.callPackage ../tools/networking/sproxy-web { };
 
+  sqliteman = callPackage ../applications/misc/sqliteman { };
+
   stardict = callPackage ../applications/misc/stardict/stardict.nix {
     inherit (gnome) libgnomeui scrollkeeper;
   };
